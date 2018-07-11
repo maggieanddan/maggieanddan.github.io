@@ -1,9 +1,9 @@
 body,
 html {
   width: 100%;
-  height: 100vh; /* set viewport constraint */
-  min-height: 100%; /* enforce height */
-  /*height: 100%;*/
+  /*height: 100vh; /* set viewport constraint */*/
+  /*min-height: 100%; /* enforce height */*/
+  height: 100%;
 }
 
 body {
@@ -196,7 +196,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/ratliff3.jpg");
+  background-image: url("../img/ratliff4.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -217,6 +217,15 @@ header.masthead h1 {
 header.masthead p {
   font-weight: 300;
 }
+
+/*@media (max-width: 600px) {
+
+}
+
+@media (min-width: 600px) {
+
+} */
+
 
 @media (min-width: 768px) {
   header.masthead p {
