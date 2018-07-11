@@ -233,12 +233,14 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
+    margin-top: 99px;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.2rem;
+    margin-top: 99px;
   }
 }
 
