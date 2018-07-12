@@ -186,6 +186,7 @@
 	}
 	.digit {
 		font-size: 35px;
+    color:rgba(255, 255, 255);
 	}
 	#counter {
 		font-size: 25px;
@@ -200,6 +201,7 @@
 		margin-left: 0px;
 }*/
 .countDays, .countHours, .countMinutes, .countSeconds {
+  color:rgba(255, 255, 255);
 	/*padding: 20px 0;*/
 	/*margin: 10px 0px;*/
 	/*padding: 35px 0;*/
