@@ -45,8 +45,8 @@
 		padding: 35px 0;
     float: left;
     width: 23.7%;
-    background: rgba(4, 31, 167, 0.1);
-		/*background: rgba(255, 255, 255, 0.1);*/
+    /*background: rgba(4, 31, 167, 0.1);*/
+		background: rgba(255, 255, 255, 0.1);
     border: 1px solid transparent;
     /*background: transparent;*/
     /*border: none;*/
