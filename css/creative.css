@@ -66,9 +66,8 @@ section {
 .section-heading {
   margin-top: 0;
 }
-h2.weddinginfotitle {
+h2#weddinginfotitle {
   font-family: 'Parisienne', cursive;
-
 }
 
 ::-moz-selection {
@@ -210,8 +209,8 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 1.8rem;
-  margin-top: 30px;
+  font-size: 2.3rem;
+  margin-top: 27px;
 }
 
 header.masthead p {
@@ -228,8 +227,9 @@ header.masthead p {
 
 
 @media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
+  header.masthead h1 {
+    font-size: 2.28rem;
+    margin-top: 28px;
   }
 }
 
@@ -640,7 +640,7 @@ img.zoom:hover {
 	background: #2f3238;
 	 top: -2px;
 }*/
-figure.effect-julia p {
+/*figure.effect-julia p {
 	display: inline-block;
 	margin: 0 0 1em;
 	padding: 0.4em 1em;
@@ -699,89 +699,22 @@ figure.effect-julia:hover p {
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-}
+}*/
 
-section.days-coming {
-  padding-top: 60px;
-}
 /*-- counter timer --*/
+section.days-coming {
+  padding-top: 80px;
+}
 .days-coming {
-    background: url(../img/ratliff2.jpg)no-repeat center;
+    /*background: url(../img/ratliff2.jpg)no-repeat center;*/
+    /*background-size: cover;*/
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/ratliff2(481).jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-}
+  }
 /*--timer--*/
-#counter {
-	height: 160px;
-    font-size: 35px;
-    color: #FFF;
-    margin: 20px 20px 20px;
-    overflow: hidden;
-background: rgba(255, 255, 255, 0.4);
-}
-.timer{
-	border-top:2px ridge #5F5F5F;
-	border-bottom:2px ridge #5F5F5F;
-}
-.timer h4{
-	font-size: 14px;
-	color: #E5E5E5;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: lighter;
-	letter-spacing: 1px;
-	margin-top: 20px;
-}
-.countDays, .countHours, .countMinutes, .countSeconds {
-    display: inline-block;
-    padding: 47px 0;
-    float: left;
-    width: 23.7%;
-    background: rgba(4, 31, 167, 0.1);
-    border: 1px solid rgba(193, 175, 78, 0.28);
-    background: transparent;
-    border: none;
-    border-left: none;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
- /*.countDays, .countHours, .countMinutes, .countSeconds {
-  border: 1px solid #fff;
-    box-sizing: border-box;
-	border-right: transparent;
-}*/
-
-/*.countSeconds:last-child {
-     border-right: 1px solid #fff;
-}*/
-.timer_wrap {
-    width: 64%;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-.points {
-	float: left;
-	width:40px;
-	margin: 0;
-	font-size: 44px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 138px;
-	text-shadow: none;
-	color:#FFF;
-    display: none;
-}
-.boxName {
-    width: 100%;
-    font-size: 17px;
-    color: #000;
-    font-style: italic;
-    font-weight: 500;
-	letter-spacing: 3px;
-    text-transform: capitalize;
-    clear: both;
-    padding: 19px;
-}
-/*--//timer--*/
