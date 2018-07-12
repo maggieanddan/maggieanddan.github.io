@@ -93,9 +93,9 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid #d4d4d2;
-  /*#*/
-  background-color: #fff;
+  /*border-bottom: 1px solid #d4d4d2;*/
+
+  /*background-color: #fff;*/
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -134,12 +134,46 @@ img::-moz-selection {
   /*color: #F05F40 !important;*/
   color: #ecd9cd !important;
   background-color: transparent;
+  /*background-color: #fff;*/
+  /*background-color:rgba(233, 236, 239, 0.9);*/
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
+  /*background-color: rgba(225,225,225, 0.7);*/
 }
+
+/*collapsed nav bar */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    background-color: rgba(255,255,255, 0.9);
+    float: right;
+    /*background-color: #e9ecef;*/
+    /*opacity: 0.9;*/
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    /*background-color:rgba(233, 236, 239, 0.9);*/
+    background-color: rgba(255,255,255, 0.9);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color:rgba(233, 236, 239, 0.9);
+  }
+  a.nav-link.js-scroll-trigger {
+    background-color:rgba(233, 236, 239, 0.9);
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+/*.navbar-light .navbar-toggler {
+  border-color: #ecd9cd;
+}*/
+
+
+
 
 @media (min-width: 992px) {
   #mainNav {
