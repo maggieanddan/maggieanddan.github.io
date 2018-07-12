@@ -4,10 +4,10 @@ html {
   /*height: 100vh; /* set viewport constraint */*/
   /*min-height: 100%; /* enforce height */*/
   height: 100%;
+  overflow-x:hidden;
 }
 
 body {
-  overflow-x:hidden;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
