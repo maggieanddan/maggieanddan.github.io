@@ -419,6 +419,10 @@ p span {
   background-color: #ecd9cd;
 }
 
+.hotel {
+  border-radius: 15px;
+}
+
 
 /*.gallery-box {
   position: relative;
