@@ -98,9 +98,9 @@
 				'<span class="position">' +
 					'<span class="digit static">0</span>' +
 				'</span>' +
-				'<span class="boxName">' +
+				'<p class="boxName">' +
 					'<span class="'+this+'">' + boxName + '</span>' +
-				'</span>'
+				'</p>'
 			).appendTo(elem);
 
 			if(this!="Seconds"){
