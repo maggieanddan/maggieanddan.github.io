@@ -74,7 +74,7 @@
 
 
 	function init(elem, options){
-		elem.addClass('countdownHolder');
+		elem.addClass('timer_wrap');
 
 		// Creating the markup inside the container
 		$.each(['Days','Hours','Minutes','Seconds'],function(i){
@@ -91,7 +91,7 @@
 			else {
 				boxName = "Seconds";
 			}
-			$('<div class="count'+this+'">' +
+			$('<div class="count'+this+' col">' +
 				'<span class="position">' +
 					'<span class="digit static">0</span>' +
 				'</span>' +

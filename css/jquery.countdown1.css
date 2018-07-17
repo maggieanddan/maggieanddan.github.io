@@ -1,0 +1,118 @@
+/*--timer--*/
+.timer_wrap {
+  background: rgba(255, 255, 255, 0.4);
+  width: 80%;
+  height: 204px;
+  margin: 0 auto;
+}
+
+#counter {
+    font-size: 2.2em;
+}
+
+span.Days, span.Hours, span.Minutes, span.Seconds {
+  background-color: transparent;
+  color: #FFF;
+}
+
+.points {
+	float: left;
+	width:40px;
+	margin: 0;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 138px;
+	text-shadow: none;
+	color:#FFF;
+  display: none;
+}
+.boxName {
+    font-size: 25px;
+    font-family: 'Parisienne', cursive;
+		color: rgba(255, 255, 255);
+    font-style: italic;
+    font-weight: 500;
+	  letter-spacing: 2px;
+  }
+
+.position{
+	display: inline-block;
+	position: relative;
+	width: 41px;
+  padding-top: 100px;
+  color: #FFF;
+}
+
+.digit {
+		color: rgba(255, 255, 255);
+    font-size: 70px;
+    /*letter-spacing: 8px;*/
+    left: 3px;
+    position: absolute;
+	 	font-family: 'Open Sans Condensed';
+}
+
+.countDays{
+    background:none;
+}
+.countDiv0{}
+.countHours {
+    background:none;
+}
+.countDiv1{}
+.countMinutes {
+    background:none;
+}
+.countDiv2{}
+.countSeconds{
+    background:none;
+}
+.countDiv{
+	display:none;
+}
+.countDiv:after{
+	top:0.9em;
+}
+/*--responsive design--*/
+
+/*responsive design for iphone x, 6,7,8 and plus */
+@media(max-width:510px){
+  .timer_wrap {
+    width:100%;
+    height: 118px;
+  }
+	.position {
+    padding-top: 60px;
+		width: 27px;
+	}
+	.digit {
+	  font-size: 53px;
+	}
+	#counter {
+	}
+	.boxName {
+		letter-spacing: 1px;
+		font-size: 16px;
+	}
+}
+
+/*responsive design for xs screen including iphone 5, galaxy S5 */
+@media(max-width:373px){
+  .timer_wrap {
+    width:100%;
+    height: 100px;
+  }
+	.position {
+    padding-top: 40px;
+		width: 20px;
+	}
+	.digit {
+	  font-size: 40px;
+	}
+  .boxName {
+		letter-spacing: 0px;
+		font-size: 14px;
+	}
+}
+/*--/responsive design--*/

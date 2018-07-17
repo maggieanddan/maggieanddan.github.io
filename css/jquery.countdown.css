@@ -6,6 +6,7 @@
 }
 #counter {
 	  /*height: 160px;*/
+    height: 204px;
     /*height: 50%;*/
 		width: 80%;
 		margin: 0 auto;
@@ -17,9 +18,8 @@
     /*color: #FFF;*/
     /*margin: 20px 20px 20px 20px;*/
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.4);*/
+    background: rgba(255, 255, 255, 0.4);
 		/*box-sizing: border-box;*/
-
 }
 .countdownHolder{
 	/*font: 23px/0.8  'Quicksand', sans-serif;*/
@@ -40,13 +40,14 @@
 	margin-top: 20px;
 }*/
 .countDays, .countHours, .countMinutes, .countSeconds {
-    /*display: inline-block;*/
-    /*padding: 47px 0;*/
-		padding: 35px 0;
+    display: inline-block;
+    padding: 47px 0;
+		/*padding: 35px 0;*/
     float: left;
     width: 23.7%;
     /*background: rgba(4, 31, 167, 0.1);*/
-		background: rgba(255, 255, 255, 0.1);
+		/*background: rgba(255, 255, 255, 0.1);*/
+    color: rgba(255, 255, 255, 0.7);
     border: 1px solid transparent;
     /*background: transparent;*/
     /*border: none;*/
@@ -100,20 +101,21 @@
 	/*font-weight: 500;*/
 	/*font-size: 0.85em;*/
 }
+
 .digit {
     /*color:rgba(0, 0, 0, 0.47);*/
-		color:rgba(255, 255, 255);
+		color: rgba(255, 255, 255, 0.7);
     font-size: 70px;
     /*letter-spacing: -6px;*/
     left: 3px;
     bottom: 0;
     position: absolute;
 	 	font-family: 'Open Sans Condensed';
-
 }
+
 .countDays{
     background:none;
-		margin-left: 5px;
+		/*margin-left: 5px;*/
 	/* display:none !important;*/
 }
 .countDiv0{ /* display:none !important;*/ }
@@ -140,53 +142,53 @@
 }
 /*--responsive design--*/
 /*@media(max-width:1024px){*/
-@media(min-width:1200px){
-.boxName {
+@media(min-width:1200px) {
+  .boxName {
     padding: 10px;
-}
-.digit {
+  }
+  /*.digit {
     font-size: 70px;
-}
-#counter {
+  }*/
+  #counter {
     height: 204px;
-}
-.countDays{
+  }
+  /*.countDays{
 		margin-left: 25px;
-}
-}
-@media(max-width:991px){
-.timer_wrap {
-    width: 100%;
-}
-.digit {
-		font-size: 65px;
-}
-.position {
-	width: 39px;
+  }*/
 }
 
+@media(min-width:992px) {
+  .timer_wrap {
+    width: 100%;
+  }
+  .digit {
+		font-size: 65px;
+  }
+  .position {
+	  width: 39px;
+  }
 }
-@media(max-width:768px){
+
+@media(min-width:765px) {
 	.digit {
     font-size: 60px;
 	}
 	.position {
 		width: 35px;
 	}
-
 }
 /*@media(max-width:667px){
 .position {
     width: 34px;
 }
 }*/
-@media(max-width:415px){
+@media(min-width:360px) {
 	.position {
 		width: 20px;
 	}
 	.digit {
 		font-size: 35px;
-    color:rgba(255, 255, 255);
+     /*color: rgba(255, 255, 255);*/
 	}
 	#counter {
 		font-size: 25px;
@@ -200,12 +202,12 @@
 	/*.countDays{
 		margin-left: 0px;
 }*/
-.countDays, .countHours, .countMinutes, .countSeconds {
-  color:rgba(255, 255, 255);
-	/*padding: 20px 0;*/
-	/*margin: 10px 0px;*/
-	/*padding: 35px 0;*/
-
+  /*.countDays, .countHours, .countMinutes, .countSeconds {
+    color: rgba(255, 255, 255);
+	padding: 20px 0;
+	margin: 10px 0px;
+	padding: 35px 0;
+  }*/
 }
 
 
