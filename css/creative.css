@@ -1,9 +1,6 @@
 body,
 html {
   width: 100%;
-  /*height: 100vh; /* set viewport constraint */
-  /*min-height: 100%; /* enforce height */
-  height: 100%; 
   overflow-x:hidden;
 }
 
