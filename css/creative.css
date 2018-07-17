@@ -392,6 +392,13 @@ div.seperator {
   /*border-color: #ecd9cd;*/
 }
 
+@media (max-width: 375px) {
+  /*.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {*/
+  .accommodationsinfo {
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 415px) {
   .weddingpartyinfo {
     font-size: 1.6rem;
