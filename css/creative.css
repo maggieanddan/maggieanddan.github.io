@@ -392,10 +392,16 @@ div.seperator {
   /*border-color: #ecd9cd;*/
 }
 
-@media (max-width: 375px) {
+@media (max-width: 404px) {
   /*.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {*/
   .accommodationsinfo {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 370px) {
+.accommodationsinfo {
+    font-size: 0.6rem;
   }
 }
 
