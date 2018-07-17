@@ -90,10 +90,9 @@ img::-moz-selection {
   background: transparent;
 }
 
-#mainNav {
-  /*border-bottom: 1px solid #d4d4d2;*/
+/*navigation */
 
-  /*background-color: #fff;*/
+#mainNav {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -170,9 +169,6 @@ img::-moz-selection {
   border-color: #ecd9cd;
 }*/
 
-
-
-
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -224,6 +220,7 @@ img::-moz-selection {
 
   }
 }
+/* //navigation */
 
 header.masthead {
   padding-top: 10rem;
@@ -386,7 +383,7 @@ div.seperator {
   }
 }
 
-.weddingpartyinfo {
+.weddingpartyinfo, .accommodationsinfo {
   padding: 1em;
 	color: #fff;
 	/*text-transform: uppercase;
@@ -400,8 +397,29 @@ div.seperator {
 	text-align: left;
 }
 
+.accommodationsinfo {
+  padding-top: 100px;
+}
+
 .weddingpartyinfo#major {
   font-size: 1.4rem;
+}
+
+.btn-light {
+  color: white;
+  /*background-color: #F05F40;*/
+  background-color: #ecd9cd;
+  /*border-color: #F05F40;*/
+  border-color: #ecd9cd; 
+}
+
+@media (max-width: 415px) {
+  .weddingpartyinfo {
+    font-size: 1.6rem;
+  }
+  .weddingpartyinfo#major {
+    font-size: 1.6rem;
+  }
 }
 
 p.weddingpeople {
