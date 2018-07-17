@@ -146,7 +146,7 @@
 			})
 
 		replacement
-			.delay(100)
+			.delay(50)
 			.animate({top:0,opacity:1},'fast',function(){
 				replacement.addClass('static');
 			});
