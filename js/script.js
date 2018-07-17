@@ -4,7 +4,7 @@ $(document).ready(function(){
 	/* ---- Countdown timer ---- */
 
 	$('#counter').countdown({
-		timestamp : (new Date(2018,11,13)).getTime() + 1000
+		timestamp : (new Date(2018,09,13,15)).getTime() + 1000
 	});
 
 
